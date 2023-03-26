@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega@5"></script>
+    <script defer src="app.js" type="module"></script>
+    <title>Decision Tree Inleveropdracht</title>
+</head>
+
+<body>
+    <div><h3>Javascript Decision Tree</h3></div>
+    <div id="view"></div>
+    <div>
+    <h3>Fill in the input areas and i will predict if you have diabetes</h3>
+    <input id ="glucose">glucose<br>
+    <input id ="bmi">bmi<br>
+    <input id ="age">age<br>
+    <input id ="pregnant">weeks pregnant<br>
+    <input id ="insulin">insulin use (1 = yes 0 = no)<br>
+    <input id ="pedigree">pedigree<br>
+    <input id ="skin">skin thickness<br>
+    <input id ="bloodpressure">bloodpressure<br>
+    <button id="predict">Predict</button><br>
+    <h3 id="result">prediction<h3>
+    </div>
+
+</body>
+</html>
